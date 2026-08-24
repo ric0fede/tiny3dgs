@@ -22,6 +22,14 @@ A pure PyTorch implementation of [3D Gaussian Splatting](https://arxiv.org/abs/2
   <img src="assets/bicycle.gif">
 </p>
 
+<p align="center">
+  <img src="assets/counter.gif">
+</p>
+
+<p align="center">
+  <img src="assets/garden.gif">
+</p>
+
 ## Features
 
 - **Fully differentiable renderer**, based on tiles, with frustum and tile culling, so cost scales with what is actually visible instead of every gaussian against every pixel
