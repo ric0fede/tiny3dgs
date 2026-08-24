@@ -14,8 +14,6 @@
 
 </div>
 
-# tiny3dgs
-
 A pure PyTorch implementation of [3D Gaussian Splatting](https://arxiv.org/abs/2308.04079) that needs no custom CUDA kernels.
 
 3D Gaussian Splatting reconstructs a 3D scene from a set of photos as a cloud of anisotropic Gaussians, then renders novel views by rasterizing that cloud in real time. This repo implements the full training pipeline in plain PyTorch autograd: point cloud initialization, a differentiable rasterizer, adaptive density control, and per parameter optimization. It is built to be readable and hackable rather than to match the speed of the reference CUDA implementation.
